@@ -33,8 +33,8 @@ def transform_text(text):
 
     return " ".join(y)
 
-tfidf = pickle.load(open('/Users/karsh/Downloads/ML_Projects/NLP-Sentiment_Analysis_Qantas_Airways/vectorizer.pkl','rb'))
-model = pickle.load(open('/Users/karsh/Downloads/ML_Projects/NLP-Sentiment_Analysis_Qantas_Airways/model.pkl','rb'))
+tfidf = pickle.load(open('/Users/karsh/Downloads/ML_Projects/NLP-Sentiment_Analysis_Qantas_Airways/models/vectorizer.pkl','rb'))
+model = pickle.load(open('/Users/karsh/Downloads/ML_Projects/NLP-Sentiment_Analysis_Qantas_Airways/models/logistic_regression.pkl','rb'))
 
 st.title("Qantas Airway Classifier")
 
