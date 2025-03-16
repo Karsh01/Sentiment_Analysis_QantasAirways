@@ -5,25 +5,26 @@ This project involves web scraping airline reviews for Qantas Airways and perfor
 
 ---
 
-## Repository Structure
+## Folder Structure
 
-Sentiment_Analysis_QantasAirways/
-│
-├── Web scraped data/                   # Contains CSV files with scraped reviews
-│   ├── lounge_review_df.csv       
-│   ├── review_df.csv               
-│   ├── seat_review_df.csv     
-|         
-├── models/                             # Trained models used for sentiment analysis
-│   ├── logistic_regression.pkl                       
-│   ├── naive_bayes.pkl                      
-│   ├── random_forest.pkl   
-|   ├── vectorizer.pkl            
-│
-├── Sentiment Analysis.ipynb            # Jupyter notebook for preprocessing, training, and evaluation.
-├── app.py                              # Streamlit application for sentiment classification.
-├── video_demo.mp4                      # Demonstration video of the application.
-├── README.md                           # Project overview and instructions
+### Web Scraped Data
+Contains CSV files with scraped reviews:
+- `lounge_review_df.csv`
+- `review_df.csv`
+- `seat_review_df.csv`
+
+### Models
+Trained models used for sentiment analysis:
+- `logistic_regression.pkl`
+- `naive_bayes.pkl`
+- `random_forest.pkl`
+- `vectorizer.pkl`
+
+### Other Files
+- `Sentiment Analysis.ipynb` - Jupyter notebook for preprocessing, training, and evaluation.
+- `app.py` - Streamlit application for sentiment classification.
+- `video_demo.mp4` - Demonstration video of the application.
+
 ---
 
 ## Web Scraping and Data Preprocessing
@@ -83,4 +84,3 @@ pip install pandas numpy matplotlib seaborn requests beautifulsoup4 nltk scikit-
 
 ## Author
 Developed by **Karsh** as part of an NLP project for sentiment analysis on airline reviews.
-
